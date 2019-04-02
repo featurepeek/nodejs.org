@@ -1,0 +1,7 @@
+---
+services:
+- name: nodejs
+  dockerfile: ./Dockerfile
+  ports:
+  - 8080
+  imagePath: gcr.io/featurepeek-228719/nodejs.org
