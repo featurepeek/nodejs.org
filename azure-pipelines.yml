@@ -15,7 +15,7 @@ pool:
 
 variables:
   dockerId: jasonbbbbbb 
-  imageName: 'nodejs.org:$(build.buildId)'
+  imageName: 'nodejs.org:$(build.sourceBranchName)'
 
 steps:
 - script: |
